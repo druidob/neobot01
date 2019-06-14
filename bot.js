@@ -38,8 +38,7 @@ client.on('message', message => {
     message.channel.send('https://cdn.discordapp.com/attachments/587622014265589771/587655722267836447/Reis.jpg');
   }
   if (message.content === prefix + 'meavatar') {  
-  if (message.author.id === "589122773922742342") {
-   message.channel.send(message.author.avatarURL);
+     message.channel.send(message.author.avatarURL);
    }
   if (message.content === 'reis2') {
     message.channel.send('https://cdn.discordapp.com/attachments/588753997989412866/588766545384308751/ulu-onder-recep-tayyip-erdogan_772977.jpg');
