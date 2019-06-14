@@ -15,14 +15,10 @@ client.on('message', message => {
   }
    if (message.content === 'sa') {
     message.reply('as');
- }
-   if (message.content === 'sa') {
-    message.reply('as');
-   
   }
    if (message.content === 'lo') {
     message.reply('LO');
- }
+  }
   if (message.content === 'lo') {
     message.reply('LO');
   }
@@ -58,12 +54,12 @@ client.on('message', message => {
 	}
   if (message.content === 'kimse yokmu burda') {
     message.channel.send('bi ben kaldım yapayanlız bi bot özsüzüüüüüüüüüüüüüüüüüüüüüüüüümmmmmmmmmmmmmmmmmm');
-	}
+}
   if (message.content === 'hadsiz bot') {
     message.channel.send('acıyıııııınnn bannnnaaa https://www.youtube.com/watch?v=fLpJqhiYatI ');
  }
  if (message.content === 'ok') {
-    message.channel.send('ok');
+    message.reply('ok');
   }  
   if (message.content === 'boronon') {
     message.channel.send('biri bor mu dedi 2023 tesüper güç olacaz https://cdn.discordapp.com/attachments/587712860738682949/587721629988028469/boron.jpg');
