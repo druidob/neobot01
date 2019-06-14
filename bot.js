@@ -38,7 +38,8 @@ client.on('message', message => {
     message.channel.send('https://cdn.discordapp.com/attachments/587622014265589771/587655722267836447/Reis.jpg');
   }
   if (message.content === prefix + 'meavatar') {  
-	message.channel.send(message.author.avatarURL);
+  if (message.author.id === "589122773922742342") {
+   message.channel.send(message.author.avatarURL);
    }
   if (message.content === 'reis2') {
     message.channel.send('https://cdn.discordapp.com/attachments/588753997989412866/588766545384308751/ulu-onder-recep-tayyip-erdogan_772977.jpg');
@@ -73,18 +74,14 @@ client.on('message', message => {
    if (message.content === 'kurallar') {
     message.channel.send('1.küfür edip insanların ıq sunu düşürme 2.spam yapma 3.insanların düşüncelerine hakaret etme 4.burda karamizah dahil herşey kabuldür takılın kafanıza göre');
   }  
-  
-  
-  
-     if (message.content === prefix + 'reboot') {
-	  
-	  if (message.author.id === "362236950842834945") {
-		  message.channel.send('[BOT]Yenıden başlatılıyor...').then(msg => {
-			  console.log('yeniden başlatılıyor')
-			  process.exit(0);
-		  });
-	  } else 
-		  message.channel.send('Maalesef bu komutu kullanamazsın. Benim yapımcım değilsin tamamı!')
+ if (message.content === prefix + 'reboot') {
+ if (message.author.id === "362236950842834945") {
+     message.channel.send('[BOT]Yenıden başlatılıyor...').then(msg => {
+     console.log('yeniden başlatılıyor')
+     process.exit(0);
+  });
+     } else 
+     message.channel.send('Maalesef bu komutu kullanamazsın. Benim yapımcım değilsin tamamı!')
 }
 
 
