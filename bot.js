@@ -73,17 +73,6 @@ client.on('message', message => {
    if (message.content === 'kurallar') {
     message.channel.send('1.küfür edip insanların ıq sunu düşürme 2.spam yapma 3.insanların düşüncelerine hakaret etme 4.burda karamizah dahil herşey kabuldür takılın kafanıza göre');
   }  
- if (message.content === prefix + 'reboot') {
- if (message.author.id === "362236950842834945") {
-     message.channel.send('[BOT]Yenıden başlatılıyor...').then(msg => {
-     console.log('yeniden başlatılıyor')
-     process.exit(0);
-  });
-     } else 
-     message.channel.send('Maalesef bu komutu kullanamazsın. Benim yapımcım değilsin tamamı!')
-}
-
-
 });
 
 client.login(process.env.BOT_TOKEN);
