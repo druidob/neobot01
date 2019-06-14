@@ -19,12 +19,15 @@ client.on('message', message => {
    if (message.content === 'lo') {
     message.reply('LO');
   }
-  if (message.content === 'lo') {
-    message.reply('LO');
+  if (message.content === 'cahiller') {
+    message.channel.send('https://cdn.discordapp.com/attachments/587622014265589771/589097171413106702/tenor.gif');
   }
   if (message.content === 'merhabalar') {
     message.channel.send('merhaba');
   }
+  if (message.content === 'çay var mı?') {
+    message.channel.send('https://cdn.discordapp.com/attachments/587622014265589771/589095480013881344/cay_yap_.gif');
+  }	
   if (message.content === 'nbr') {
     message.reply('iyi senden nbr');
   }
